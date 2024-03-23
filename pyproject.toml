@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "goit-pyweb-hw-02"
+version = "0.1.1"
+description = "Homework"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
